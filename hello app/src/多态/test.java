@@ -15,6 +15,7 @@ public class test {
         father f3=new son();
         son s=new son();
         s= (son) f3;//同类型时编译和使用方法都不报错
+        s.fatherShow();
 
         //son1 s1=(son1) f3;//不同类型编译时不报错，运行时报错；
         //解决方法instanceof
